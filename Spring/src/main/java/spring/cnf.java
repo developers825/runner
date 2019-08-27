@@ -13,7 +13,9 @@ import org.springframework.stereotype.Component;
 public class cnf {
 	@Bean
 	public Type transferService() {
+		System.out.println("云端");
 		return new Type(2,"33333");
 		
 	}
+	
 }
